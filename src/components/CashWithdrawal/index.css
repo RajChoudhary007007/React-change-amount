@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  height: 500px;
+  width: 600px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.profile-name {
+  display: flex;
+  align-items: center;
+}
+.profile-sub-heading {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: roboto;
+  color: #7c3aed;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  padding-top: 20px;
+  padding-left: 22px;
+}
+.profile-main-heading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #d4d2db;
+  padding-left: 40px;
+}
+.balance-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-balance {
+  color: #382f5a;
+  font-size: 22px;
+  font-size: 500;
+  font-family: roboto;
+}
+.your-bal-2000 {
+  color: #d4d2db;
+  font-family: roboto;
+  font-size: 28px;
+}
+.rupees {
+  color: #382f5a;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+  text-align: end;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: roboto;
+  font-size: 25px;
+}
+.choose-sum {
+  color: #382f5a;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: 500;
+}
+.amount-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  height: 40px;
+  width: 160px;
+  margin: 10px;
+  background-color: #585076;
+  color: #d4d2db;
+  border-radius: 8px;
+  border: 2px solid #382f5a;
+}
